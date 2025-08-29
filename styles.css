@@ -1,0 +1,65 @@
+/* Basic Reset */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+body {
+    font-family: Arial;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* This separates the elements */
+    align-items: center;
+    padding: 15px 25px;
+    background-color: #111; /* Set the background dark */
+    color: white;
+}
+/* Company Logo */
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px; /* space between links */
+}
+.nav-links a {
+    text-decoration: none;
+    color: rgba(168, 158, 158, 0.634);
+    font-size: 14px;
+}
+.nav-links a:hover {
+    color: #1e90ff; /* Color on hover */
+}
+/* buttons */
+.nav-buttons a {
+    margin-left: 10px;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.singin {
+    color: white;
+}
+.singin:hover{
+    color: #1e90ff;
+}
+.start {
+    background: linear-gradient(to bottom right, #1e90ff);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    display: inline-block;
+}
+.start:hover {
+    background: linear-gradient(to bottom right, #2840AD);
+}
