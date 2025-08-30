@@ -1,0 +1,96 @@
+/* -- HERO -- */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.badge {
+    background: black;
+    border: 1px solid #2ecc71;
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+h1 .highlight {
+    color: #00aaff;
+}
+
+.description {
+    font-size: 16px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+
+.description .blue {
+    color: #00aaff;
+    font-weight: bold;
+}
+
+/* BUTTONS */
+.hero-buttons {
+    margin-bottom: 40px;
+}
+
+.btn-trial {
+    background-image: linear-gradient(to right, #007bff, #00c6ff);
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 15px;
+    display: inline-block;
+    transition: background-image 0.3 ease;
+}
+
+.btn-trial:hover {
+    background-image: linear-gradient(to right, #2090ff, #33d1ff);
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 1px solid #007bff;
+    color: #007bff;
+    padding: 12px 28px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background: #007bff;
+    color: white;
+}
+
+/* METRICS */ 
+.metrics {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 40px;
+}
+.metrics h3 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.metrics p {
+    font-size: 14px;
+    color: #aaa;
+}
